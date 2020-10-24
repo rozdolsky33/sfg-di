@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
  * Created by vr 10/24/20.
  */
 @Profile("cat")
-@Service("catService")
+@Service("catPetService")
 public class CatPetService implements PetService {
     @Override
     public String getPetType() {
